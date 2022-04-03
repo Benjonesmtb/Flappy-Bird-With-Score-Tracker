@@ -26,3 +26,12 @@ Setup (Linux)
    ```
 
 5. Use <kbd>&uarr;</kbd> or <kbd>Space</kbd> key to play and <kbd>Esc</kbd> to close the game.
+
+Notable forks
+-------------
+
+- [FlappyBirdClone](https://github.com/sourabhv/FlapPyBird)
+- [FlappyBird Fury Mode](https://github.com/Cc618/FlapPyBird)
+- [FlappyBird Model Predictive Control](https://github.com/philzook58/FlapPyBird-MPC)
+- [FlappyBird OpenFrameworks Port](https://github.com/TheLogicMaster/ofFlappyBird)
+- [FlappyBird On Quantum Computing](https://github.com/WingCode/QuFlapPyBird)
