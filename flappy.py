@@ -58,7 +58,7 @@ def main():
     FPSCLOCK = pygame.time.Clock()
     SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
     
-    file = open("users/ben.txt", "r")
+    file = open("users/highscore.txt", "r")
     highscore = int(file.readline())
     file.close()
     pygame.display.set_caption('Highscore: ' + str(highscore))
@@ -426,11 +426,11 @@ def showScore(score):
     scoreDigits = [int(x) for x in list(str(score))]
     totalWidth = 0 # total width of all numbers to be printed
     # highscore save stuff
-    file = open("users/ben.txt", "r")
+    file = open("users/highscore.txt", "r")
     highscore = int(file.readline())
     file.close()
     if highscore <= score:
-        file = open("users/ben.txt", "w")
+        file = open("users/highscore.txt", "w")
         file.write(str(score))
         file.close()
         pygame.display.set_caption('Highscore: ' + str(highscore))
