@@ -45,8 +45,8 @@ PIPES_LIST = (
     'assets/sprites/pipe-red.png',
 )
 
-
 try:
+    #pass
     xrange
 except NameError:
     xrange = range
